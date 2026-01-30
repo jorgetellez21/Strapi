@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# Strapi build
+build/
+dist/
+.strapi/
+.strapi-updater.json
+
+# Archivos de entorno
+.env*
+.env.local
+
+# Uploads
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Logs
+*.log

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_slider_personalizables",
+  "info": {
+    "displayName": "Slider Personalizable"
+  },
+  "options": {},
+  "attributes": {
+    "Slides": {
+      "type": "component",
+      "component": "shared.slide-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

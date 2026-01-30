@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_seccion_formularios",
+  "info": {
+    "displayName": "Seccion Formulario"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_servicios",
+  "info": {
+    "displayName": "Servicios"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "shared.cards",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

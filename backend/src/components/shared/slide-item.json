@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_slide_items",
+  "info": {
+    "displayName": "SlideItem"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "blocks"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "boton": {
+      "type": "component",
+      "component": "shared.boton",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

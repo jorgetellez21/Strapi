@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "blocks"
+    },
+    "imagen_fondo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "boton": {
+      "type": "component",
+      "component": "shared.boton",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
